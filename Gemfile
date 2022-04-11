@@ -73,3 +73,6 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
+
+# Integrate Bootstrap v5-style forms
+gem "bootstrap_form", "~> 5.0"
