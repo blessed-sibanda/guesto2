@@ -9,8 +9,15 @@
     <%= javascript_include_tag "application", "data-turbo-track": "reload", defer: true %>
   </head>
   <body>
-    <main class="container">
+    <main role='main' class="container">
       <%= yield %>
     </main>
+    <footer class="footer">
+      <div class="container">
+        <span class="text-muted">Guesto by 
+          <a class='text-decoration-none' target='_blank' href="https://github.com/blessed-sibanda">Blessed Sibanda</a>
+        </span>
+      </div>
+    </footer>
   </body>
 </html>
